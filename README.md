@@ -68,7 +68,7 @@ An example script is provided in `run/run.py`. You can replace the default fligh
 - The wing and simulation parameters,
 - The structural matrices associated with the beam model (e.g., FEM model of the wing).
 
-This example was used to **generate the open-source dataset** available [here](link). It is based on simulations of **18 flights** generated using a flight simulator, totaling over **26 hours of flight time**. Simulations were originally performed at **500 Hz** and then downsampled to **100 Hz**. The dataset covers a wide range of flight conditions, from **Mach 0.1 to Mach 0.9**, and includes episodes of **atmospheric turbulence**.
+This example was used to **generate the open-source dataset** available [here](https://doi.org/10.5281/zenodo.15305275). It is based on simulations of **18 flights** generated using a flight simulator, totaling over **26 hours of flight time**. Simulations were originally performed at **500 Hz** and then downsampled to **100 Hz**. The dataset covers a wide range of flight conditions, from **Mach 0.1 to Mach 0.9**, and includes episodes of **atmospheric turbulence**.
 
 The procedure used to extract the wing’s structural and aerodynamic characteristics rely on xfoil and is detailed in:
 
